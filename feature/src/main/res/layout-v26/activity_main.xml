@@ -63,6 +63,7 @@
             android:layout_marginEnd="8dp"
             app:layout_constraintTop_toBottomOf="@+id/hello"
             android:inputType="textMultiLine|textPersonName"
-            android:hint="@string/profound"/> <!--when no text, it will be displayed-->
-
+            android:hint="@string/profound"
+            android:importantForAutofill="no"/> <!--when no text, it will be displayed-->
+    
 </android.support.constraint.ConstraintLayout>
