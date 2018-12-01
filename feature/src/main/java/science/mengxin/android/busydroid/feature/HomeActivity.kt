@@ -1,8 +1,10 @@
 package science.mengxin.android.busydroid.feature
 
+import android.content.Intent
 import android.os.Bundle
-import android.support.design.widget.Snackbar
+import android.provider.AlarmClock.EXTRA_MESSAGE
 import android.support.design.widget.NavigationView
+import android.support.design.widget.Snackbar
 import android.support.v4.view.GravityCompat
 import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
@@ -59,6 +61,13 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
         when (item.itemId) {
+            R.id.home -> {
+                // Handle the camera action
+                val intent = Intent(this, MainActivity::class.java).apply {
+                    putExtra(EXTRA_MESSAGE, "open")
+                }
+                startActivity(intent)
+            }
             R.id.nav_camera -> {
                 // Handle the camera action
             }
