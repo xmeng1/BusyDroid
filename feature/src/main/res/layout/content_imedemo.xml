@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_ime_demo"
+        tools:context=".IMEDemo">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:stretchColumns="1"
+            >
+        <TableRow>
+            <TextView
+                    android:text="No special rules:"
+                    />
+            <EditText
+                    />
+        </TableRow>
+        <TableRow>
+            <TextView
+                    android:text="Email address:"
+                    />
+            <EditText
+                    android:inputType="text|textEmailAddress"
+                    />
+        </TableRow>
+        <TableRow>
+            <TextView
+                    android:text="Signed decimal number:"
+                    />
+            <EditText
+                    android:inputType="number|numberSigned|numberDecimal"
+                    />
+        </TableRow>
+        <TableRow>
+            <TextView
+                    android:text="Date:"
+                    />
+            <EditText
+                    android:inputType="date"
+                    />
+        </TableRow>
+        <TableRow>
+            <TextView
+                    android:text="Multi-line text:"
+                    />
+            <EditText
+                    android:inputType="text|textMultiLine|textAutoCorrect"
+                    android:minLines="3"
+                    android:gravity="top"
+                    />
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>

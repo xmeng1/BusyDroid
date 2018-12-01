@@ -68,6 +68,13 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 }
                 startActivity(intent)
             }
+            R.id.ime_demo -> {
+                // Handle the camera action
+                val intent = Intent(this, IMEDemo::class.java).apply {
+                    putExtra(EXTRA_MESSAGE, "open")
+                }
+                startActivity(intent)
+            }
             R.id.nav_camera -> {
                 // Handle the camera action
             }
