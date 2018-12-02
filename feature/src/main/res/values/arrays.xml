@@ -5,8 +5,8 @@
         <item>Bottom-then-Top: LinearLayout</item>
         <item>Bottom-then-Top: RelativeLayout</item>
         <item>Bottom-then-Top: ConstraintLayout</item>
-        <!--
         <item>Stacked Percent: LinearLayout</item>
+        <!--
         <item>Stacked Percent: ConstraintLayout</item>
         <item>Stacked Percent: ConstraintLayout Guideline</item>
         <item>URL Dialog: LinearLayout</item>
@@ -37,8 +37,8 @@
         <item>@layout/bottom_then_top_ll</item>
         <item>@layout/bottom_then_top_rl</item>
         <item>@layout/bottom_then_top_cl</item>
-        <!--
         <item>@layout/stacked_percent_ll</item>
+        <!--
         <item>@layout/stacked_percent_cl</item>
         <item>@layout/stacked_percent_cl_guideline</item>
         <item>@layout/url_dialog_ll</item>
