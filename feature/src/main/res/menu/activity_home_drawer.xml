@@ -13,6 +13,10 @@
                 android:icon="@drawable/ic_menu_android"
                 android:title="@string/title_activity_imedemo"/>
         <item
+                android:id="@+id/containers_sampler"
+                android:icon="@drawable/ic_menu_android"
+                android:title="Containers"/>
+        <item
                 android:id="@+id/nav_camera"
                 android:icon="@drawable/ic_menu_camera"
                 android:title="Import"/>
