@@ -39,6 +39,11 @@
                 android:label="@string/title_activity_imedemo"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
+        <activity
+                android:name=".ContainersSampler"
+                android:label="@string/title_activity_containers_sampler"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>

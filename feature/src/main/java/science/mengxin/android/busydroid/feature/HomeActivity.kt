@@ -75,6 +75,14 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 }
                 startActivity(intent)
             }
+            R.id.containers_sampler -> {
+                val intent = Intent(this, ContainersSampler::class.java).apply {
+                    putExtra(EXTRA_MESSAGE, "open")
+                }
+                startActivity(intent)
+
+            }
+
             R.id.nav_camera -> {
                 // Handle the camera action
             }

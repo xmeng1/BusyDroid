@@ -2,4 +2,5 @@
     <string name="app_name">BusyDroid</string>
     <string name="title_activity_home">HomeActivity</string>
     <string name="title_activity_imedemo">IMEDemo</string>
+    <string name="title_activity_containers_sampler">ContainersSampler</string>
 </resources>
