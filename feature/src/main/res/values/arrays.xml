@@ -6,10 +6,10 @@
         <item>Bottom-then-Top: RelativeLayout</item>
         <item>Bottom-then-Top: ConstraintLayout</item>
         <item>Stacked Percent: LinearLayout</item>
+        <item>URL Dialog: LinearLayout</item>
         <!--
         <item>Stacked Percent: ConstraintLayout</item>
         <item>Stacked Percent: ConstraintLayout Guideline</item>
-        <item>URL Dialog: LinearLayout</item>
         <item>URL Dialog: RelativeLayout</item>
         <item>URL Dialog: TableLayout</item>
         <item>URL Dialog: ConstraintLayout</item>
@@ -38,10 +38,10 @@
         <item>@layout/bottom_then_top_rl</item>
         <item>@layout/bottom_then_top_cl</item>
         <item>@layout/stacked_percent_ll</item>
+        <item>@layout/url_dialog_ll</item>
         <!--
         <item>@layout/stacked_percent_cl</item>
         <item>@layout/stacked_percent_cl_guideline</item>
-        <item>@layout/url_dialog_ll</item>
         <item>@layout/url_dialog_rl</item>
         <item>@layout/url_dialog_tl</item>
         <item>@layout/url_dialog_cl</item>
