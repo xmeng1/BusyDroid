@@ -10,12 +10,12 @@
         <item>Bottom-then-Top: RelativeLayout</item>
         <item>URL Dialog: RelativeLayout</item>
         <item>Overlap: RelativeLayout</item>
+        <item>Form: TableLayout</item>
         <!--
         <item>Stacked Percent: ConstraintLayout</item>
         <item>Stacked Percent: ConstraintLayout Guideline</item>
         <item>URL Dialog: TableLayout</item>
         <item>URL Dialog: ConstraintLayout</item>
-        <item>Form: TableLayout</item>
         <item>Form: ConstraintLayout</item>
         <item>Center: RelativeLayout</item>
         <item>Center: ConstraintLayout</item>
@@ -42,12 +42,12 @@
         <item>@layout/bottom_then_top_rl</item>
         <item>@layout/url_dialog_rl</item>
         <item>@layout/overlap_rl</item>
+        <item>@layout/form_tl</item>
+        <item>@layout/url_dialog_tl</item>
         <!--
         <item>@layout/stacked_percent_cl</item>
         <item>@layout/stacked_percent_cl_guideline</item>
-        <item>@layout/url_dialog_tl</item>
         <item>@layout/url_dialog_cl</item>
-        <item>@layout/form_tl</item>
         <item>@layout/form_cl</item>
         <item>@layout/center_rl</item>
         <item>@layout/center_cl</item>
