@@ -11,10 +11,10 @@
         <item>URL Dialog: RelativeLayout</item>
         <item>Overlap: RelativeLayout</item>
         <item>Form: TableLayout</item>
+        <item>URL Dialog: TableLayout</item>
         <!--
         <item>Stacked Percent: ConstraintLayout</item>
         <item>Stacked Percent: ConstraintLayout Guideline</item>
-        <item>URL Dialog: TableLayout</item>
         <item>URL Dialog: ConstraintLayout</item>
         <item>Form: ConstraintLayout</item>
         <item>Center: RelativeLayout</item>
